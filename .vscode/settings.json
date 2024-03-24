@@ -1,0 +1,18 @@
+{
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#1A3410",
+    "titleBar.activeBackground": "#244917",
+    "titleBar.activeForeground": "#F7FCF5"
+  },
+  "liveServer.settings.port": 5501,
+  "explorer.compactFolders": false,
+  "notebook.compactView": false,
+  "gitlens.views.stashes.files.compact": false,
+  "git-graph.commitDetailsView.fileView.fileTree.compactFolders": false,
+  "files.insertFinalNewline": false,
+  "notebook.insertFinalNewline": false,
+  "editor.insertSpaces": false,
+  "editor.comments.insertSpace": false,
+  "editor.accessibilitySupport": "off",
+  "editor.autoIndent": "brackets"
+}
