@@ -1,21 +1,21 @@
 1. About:
-https://abstractcats.org/
-My personal site, pre-pandemic. I'm currently remaking the whole site. More to come. 
 
+AbstractCats.org (pre-pandemic) is my personal website. I'm currently in the process of completely revamping the site. Stay tuned for updates!
 
 2. Goals:
-While this is a personal site, it is also meant to be my main portfolio project.
-My main goal for this project is getting my first job in the Tech world.
 
-I want to make a music type database with SQL and maybe Python.
+While this serves as a personal site, it's also designed to be my primary portfolio project.
 
+My primary goal for this project is to land my first job in the tech industry.
 
-3. Tech:
-Currently implemented lauguages are HTML and CSS. I will be adding JavaScript.
+As an additional project, I'm considering creating a music type database using SQL and potentially Python.
 
+3. Tech Stack:
+
+Currently implemented languages include HTML and CSS. JavaScript will be added in the future.
 
 4. Content:
-Home page
-Contact page
 
-Created 3.24.24
+Home Page
+Contact Page
+Created: March 24, 2024
