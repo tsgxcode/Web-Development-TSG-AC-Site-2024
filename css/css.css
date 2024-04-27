@@ -71,15 +71,14 @@
 }
 
 .article1 {
-	grid-column-start: 60;
-	grid-column-end: -20;
+	grid-column-start: 20;
+	grid-column-end:20;
 	height: 100px;
 	background-color: coral;
 
 }
-
 .article2 {
-	grid-column-start: 2;
+	grid-column-start: 10;
 	grid-column-end: 50;
 	height: 150px;
 	background-color: coral;
