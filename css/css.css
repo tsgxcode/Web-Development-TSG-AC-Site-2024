@@ -7,13 +7,7 @@
 	font-size: small;
 } 
 
-.landing{ 
-  background-color: #FFCC99;	
-  background-image: url("../img/AC.jpg"); 
-  padding-top: 7px;
-  padding-top: 70px;
 
-}
  
  .Title {
 	font-family: 'Courier New', Courier, monospace;
@@ -129,6 +123,7 @@
 	width:700px;
 	height:520px;
 	margin: auto;
+	caret-color: hotpink;
 }
 
 
@@ -147,6 +142,7 @@
 	border: 2px solid coral;
 	color: darkcyan;
 	list-style-type: none;
+	caret-color: hotpink;
 }
 
 .contact {

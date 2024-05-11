@@ -1,0 +1,25 @@
+/*Landing page */
+.landing{ 
+  color: #FFCC99;	
+  background-image: url("../img/AC.jpg"); 
+  padding-top: 7px;
+  padding-top: 70px;
+  
+
+}
+
+.LDcontainer{
+	padding-top: 100px;
+	padding-left:300px;
+	color: brown;
+}
+
+.ul{
+	display: grid;
+	padding: 30px;
+	list-style-type: none;
+}
+
+.li{
+	
+}
