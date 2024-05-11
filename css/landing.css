@@ -21,6 +21,24 @@
 }
 
 .li, .b1, .b2, .b3{
-	color: skyblue;
+	color: black;
 	padding: 20px;
+}
+
+.b1{
+	padding-top: 60px;
+	margin: 30px;
+	background-color:  aqua;
+}
+
+.b2{
+	padding-top: 60px;
+	margin: 30px;
+	background-color: aqua;
+}
+
+.b3{
+	padding-top: 60px;
+	margin: 30px;
+	background-color: aqua;
 }
