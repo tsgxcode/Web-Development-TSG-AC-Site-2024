@@ -9,17 +9,18 @@
 }
 
 .LDcontainer{
+	display: grid;
 	padding-top: 100px;
 	padding-left:300px;
 	color: brown;
 }
 
 .ul{
-	display: grid;
-	padding: 30px;
+	
 	list-style-type: none;
 }
 
-.li{
-	
+.li, .b1, .b2, .b3{
+	color: skyblue;
+	padding: 20px;
 }
