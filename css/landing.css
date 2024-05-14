@@ -2,43 +2,36 @@
 .landing{ 
   color: #FFCC99;	
   background-image: url("../img/AC.jpg"); 
-  padding-top: 7px;
-  padding-top: 70px;
+  padding-top: 100px;
+  padding-left: 70px;
   
-
 }
 
-.LDcontainer{
-	display: grid;
-	padding-top: 100px;
-	padding-left:300px;
-	color: brown;
-}
+
 
 .ul{
-	
+	display: grid;
+	grid-template-columns: 20fr 30fr 40fr 30fr;
+	grid-template-rows: 20em;
+	grid-gap:10px;
+	padding-top: 70px;
+	padding-right: 20px;
 	list-style-type: none;
 }
 
 .li, .b1, .b2, .b3{
-	color: black;
-	padding: 20px;
+	color: rgb(211, 205, 253);
+	padding: 20px;	
 }
 
 .b1{
-	padding-top: 60px;
-	margin: 30px;
-	background-color:  aqua;
+	background-color:  rgb(33, 232, 24, 50%);
 }
 
 .b2{
-	padding-top: 60px;
-	margin: 30px;
-	background-color: aqua;
+	background-color: rgb(59, 44, 44, 40%);
 }
 
 .b3{
-	padding-top: 60px;
-	margin: 30px;
-	background-color: aqua;
+	background-color: rgb(33, 232, 24, 50%);
 }
