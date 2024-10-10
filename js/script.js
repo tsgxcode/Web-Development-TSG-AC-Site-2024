@@ -1,15 +1,15 @@
 //Contact page
-const inputr = document.querySelectorAll(".input");
+const input = document.querySelectorAll(".input");
 
 function focusFunc() {
-	let parent = this.parentNode;
-	parent.classList.add("focus");
+	let perant = this.perantNode;
+	perant.classList.add("focus");
 }
 
 	function blurFunc() {
-		let psarent = this.parentNode;
+		let perant = this.perantNode;
 		if (this.value == "") {
-          preant.classList.remove("focus");   
+          perant.classList.remove("focus");   
 		}
 	}
 
