@@ -4,16 +4,8 @@
 	font-family: system-ui, -apple-system, BlinkMacSystemFont,
 		'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
 		'Helvetica Neue', sans-serif;
-	font-size: small;
+	font-size: large;
 } 
-
-
- 
- .Title {
-	font-family: 'Courier New', Courier, monospace;
-	color:aliceblue;
-	padding: 30px;
- }
 
 .nav {
 	margin-top: -8px;
@@ -34,7 +26,7 @@
 	list-style-type: none;
 	position: left;
 	margin-top: -4;
-	padding: 1px;
+	padding: 6px;
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
 		'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 	font-size: small;
@@ -43,7 +35,7 @@
 .nav li a:hover,
 .follow {
 	color: coral;
-	padding: 2px;
+	padding: 3x;
 	text-transform: uppercase;
 	transition: .5s ease 0s;
 }
@@ -63,7 +55,7 @@
 .container_main {
 	overflow: hidden;
 	display: grid;
-	grid-gap: .5rem;
+
 	width: 500px;
 }
 
@@ -79,29 +71,29 @@
 }
 
 .article1 {
-	grid-column-start: 20;
-	grid-column-end:20;
+	grid-column-start: 2;
+	grid-column-end:2;
 	height: 100px;
 	background-color: coral;
 
 }
 .article2 {
-	grid-column-start: 10;
-	grid-column-end: 50;
+	grid-column-start: 5;
+	grid-column-end: 5;
 	height: 150px;
 	background-color: coral;
 }
 
 .article3 {
 	grid-column-start: 1;
-	grid-column-end: 40;
+	grid-column-end: 4;
 	height: 200px;
 	background-color: coral;
 }
 
 .article4 {
 	grid-column-start: 2;
-	grid-column-end: 100;
+	grid-column-end: 10;
 	height: 220px;
 	background-color: coral;
 
@@ -109,7 +101,7 @@
 
 .article5 {
 	grid-column-start: 4;
-	grid-column-end: 150;
+	grid-column-end: 15;
 	height: 275px;
 	background-color: coral;
 }
@@ -137,13 +129,14 @@
 	min-width: 400px;
 	max-width: 620px;
 	min-height:100px;
-	max-height: 300px;
+	max-height: 200px;
 	padding: 3px;
 	border: 2px solid coral;
 	color: darkcyan;
 	list-style-type: none;
 	caret-color: hotpink;
 }
+
 
 .contact {
 	display: grid;
