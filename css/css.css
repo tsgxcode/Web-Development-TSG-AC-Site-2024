@@ -8,16 +8,16 @@
 } 
 
 .nav {
-	margin-top: -8px;
+	margin-top: -33px;
 	display: flex;
-	width: 250px;
+	width: 170px;
 	justify-content: center;
-	margin-left: 990px;
+	margin-left: 750px;
 	list-style-type: none;
 	position: fixed;
-	padding: 4px;
-	border-bottom: 1px solid coral;
-	border-right: 2px solid coral;
+	padding: 7px;
+	border-bottom: 1px solid #333300;
+	border-right: 2px solid #333300;
 	z-index: 1;
 }
 
@@ -29,7 +29,7 @@
 	padding: 6px;
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
 		'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-	font-size: small;
+	font-size: medium;
 }
 
 .nav li a:hover,
@@ -42,7 +42,7 @@
 
 .banner{
     background-color: rgb(255, 174, 137);
-	font-size: small;
+	font-size: medium;
 	color: #333300;
 	margin-top: 0;
 	top: 0;
@@ -53,47 +53,42 @@
 	position: fixed;
 }
 
-.container_main {
+.main {
 	display: grid;
 	color: rgb(79, 73, 116);
-	padding: 20px;
-    grid-gap:20px;
+    grid-gap:2px;
 	
 }
 
 .article1 {
-	grid-column-start: 20;
-	grid-row-end:10;
-	height: 100px;
 	background-color: coral;
+	border-bottom: 4px solid #333300;
+	padding: 10px;
 
 }
 .article2 {
-	grid-column-start: 50;
-	grid-column-end: 5;
+	
 	height: 150px;
+	padding: 10px;
 	background-color: rgb(203, 148, 126);
 }
 
 .article3 {
-	grid-column-start: 9;
-	grid-column-end: 4;
-	height: 200px;
+	height: 100px;
+	padding: 10px;
 	background-color: coral;
 }
 
 .article4 {
-	grid-column-start: 2;
-	grid-column-end: 10;
-	height: 220px;
+	height: 20px;
+	padding: 10px;
 	background-color: coral;
 
 }
 
 .article5 {
-	grid-column-start: 4;
-	grid-column-end: 15;
-	height: 275px;
+	height: 200px;
+	padding: 10px;
 	background-color: coral;
 }
 
@@ -154,4 +149,5 @@
 }
 
 /*Responsive */
+
 

@@ -14,5 +14,6 @@
   "editor.insertSpaces": false,
   "editor.comments.insertSpace": false,
   "editor.accessibilitySupport": "off",
-  "editor.autoIndent": "brackets"
+  "editor.autoIndent": "brackets",
+  "livePreview.defaultPreviewPath": "/index.html"
 }
