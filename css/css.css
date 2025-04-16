@@ -8,16 +8,14 @@
 } 
 
 .nav {
-	margin-top: -33px;
 	display: flex;
 	width: 170px;
 	justify-content: center;
 	margin-left: 750px;
+	margin-top: -1rem;
 	list-style-type: none;
 	position: fixed;
 	padding: 7px;
-	border-bottom: 1px solid #333300;
-	border-right: 2px solid #333300;
 	z-index: 1;
 }
 
@@ -25,7 +23,6 @@
 .follow {
 	list-style-type: none;
 	position: left;
-	margin-top: -4;
 	padding: 6px;
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
 		'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -56,40 +53,50 @@
 .main {
 	display: grid;
 	color: rgb(79, 73, 116);
-    grid-gap:2px;
+	padding: 5px;
+    grid-gap:10px;
 	
 }
 
+/*Music */
 .article1 {
+	height: 150px;
+	padding: 10px;
 	background-color: coral;
 	border-bottom: 4px solid #333300;
 	padding: 10px;
 
 }
 .article2 {
-	
 	height: 150px;
 	padding: 10px;
 	background-color: rgb(203, 148, 126);
+	border-bottom: 4px solid #333300;
+	padding: 10px;
 }
 
 .article3 {
-	height: 100px;
+	height: 150px;
 	padding: 10px;
 	background-color: coral;
+	border-bottom: 4px solid #333300;
+	padding: 10px;
 }
 
 .article4 {
-	height: 20px;
+	height: 150px;
 	padding: 10px;
 	background-color: coral;
-
+	border-bottom: 4px solid #333300;
+    padding: 10px;
 }
 
 .article5 {
 	height: 200px;
 	padding: 10px;
 	background-color: coral;
+	border-bottom: 4px solid #333300;
+	padding: 10px;
 }
 
 /* Contact page */
@@ -127,6 +134,7 @@
 
 
 .contact {
+
 	display: grid;
 	overflow: hidden;
 	margin-top: 30PX;
@@ -137,9 +145,12 @@
 
 /* Bottom Menu */
 #ul{
-    margin-top: 4PX;
-	margin-right:900px;
-	list-style-type: none;
+	position:relative;
+   left:0;
+   right:0;
+   bottom:0;
+   margin-right:900px;
+   list-style-type: none;
 }
 
 
