@@ -4,7 +4,7 @@
     "titleBar.activeBackground": "#244917",
     "titleBar.activeForeground": "#F7FCF5"
   },
-  "liveServer.settings.port": 5501,
+  "liveServer.settings.port": 5502,
   "explorer.compactFolders": false,
   "notebook.compactView": false,
   "gitlens.views.stashes.files.compact": false,

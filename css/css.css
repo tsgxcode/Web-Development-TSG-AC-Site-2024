@@ -50,19 +50,18 @@
 }
 
 .main {
-	width: 1000px;
-	margin: 20px auto;
-	grid-template-columns: 400px ;
+	justify-items: center;
+	max-width: 1100px;
 	display: grid;
 	color: rgb(79, 73, 116);
-	padding: 5px;
+	padding: 1rem;
     grid-gap:10px;
 	
 }
 
 /*Music */
 .article1 {
-	grid-column: 1/1;
+	grid-column: 10/1;
 	grid-row: 1/1;
 	height: 150px;
 	padding: 10px;
@@ -142,8 +141,10 @@
 
 	display: grid;
 	overflow: hidden;
-	margin-top: 30PX;
-	margin-left: 410px;
+	  bottom: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
 	list-style-type: none;
 	
 }
@@ -158,8 +159,20 @@
 
 .footer {
 	color: coral;
+	height: 20px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
 }
 
 /*Responsive */
 
-
+@media (max-width: 768px ){
+    .main {
+        
+		 
+		
+    }
+	
+}
