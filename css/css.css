@@ -31,7 +31,7 @@
 .nav li a:hover,
 .follow {
 	color: coral;
-	padding: 3x;
+	padding: 3px;
 	text-transform: uppercase;
 	transition: .5s ease 0s;
 }
@@ -84,7 +84,7 @@
 	padding: 10px;
 	background-color: coral;
 	border-bottom: 4px solid #333300;
-	padding: 10px;
+
 }
 
 .article4 {
@@ -92,7 +92,7 @@
 	padding: 10px;
 	background-color: coral;
 	border-bottom: 4px solid #333300;
-    padding: 10px;
+    
 }
 
 .article5 {
@@ -100,7 +100,7 @@
 	padding: 10px;
 	background-color: coral;
 	border-bottom: 4px solid #333300;
-	padding: 10px;
+	
 }
 
 /* Contact page */
