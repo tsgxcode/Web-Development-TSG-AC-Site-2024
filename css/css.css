@@ -50,8 +50,8 @@
 }
 
 .main {
-	justify-items: center;
-	max-width: 1100px;
+	  margin: auto;
+  overflow:hidden;
 	display: grid;
 	color: rgb(79, 73, 116);
 	padding: 1rem;
@@ -72,13 +72,15 @@
 
 }
 .article2 {
-	display: grid;
+	display: flex;
 	height: 150px;
 	padding: 10px;
 	background-color: rgb(203, 148, 126);
 	border-bottom: 4px solid #333300;
 	padding: 10px;
+	font-size: clamp(10px, 5vw, 20px);
 }
+
 
 .article3 {
 	
@@ -88,7 +90,10 @@
 	border-bottom: 4px solid #333300;
 
 }
-
+.P2{
+	padding: 20px;
+	margin-top: 30px;
+}
 .article4 {
 	height: 150px;
 	padding: 10px;
@@ -170,11 +175,14 @@
 
 /*Responsive */
 
-@media (max-width: 768px ){
-    .main, .article4{
-        
-		 
-		
+
+ /* Media Quaries */
+
+@media (max-width: 769px)
+  
+        {
+    .main {
+     min-height: calc(100vh - 52px);
+
     }
-	
-}
+ } 
